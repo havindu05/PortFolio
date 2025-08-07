@@ -1,11 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>PortFolio</title>
 </head>
-<body>
-    <h1>PortFolio</h1>
+
+<body class="bg-black text-white">
+
+    <div class="navBar">
+        <nav class="bg-white border-gray-200 dark:bg-gray-900 fixed w-full z-20 top-0 left-0">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="assest/images/Screenshot_2025-08-06_at_10.55.55_AM-removebg-preview.png" class="h-8"
+                        alt="Logo" />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Havindu
+                        Binduhewa</span>
+                </a>
+
+                <button data-collapse-toggle="navbar-user" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700"
+                    aria-controls="navbar-user" aria-expanded="false">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+
+                <div class="hidden md:flex items-center w-full md:w-auto" id="navbar-user">
+                    <ul
+                        class="flex flex-col md:flex-row font-medium p-4 md:p-0 mt-4 md:mt-0 rounded-lg bg-gray-50 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 space-y-2 md:space-y-0 md:space-x-8">
+                        <li><a href="#home"
+                                class="block py-2 px-3 text-blue-500 hover:text-white hover:scale-110 transition-transform duration-300 ease-in-out rounded">Home</a>
+                        </li>
+                        <li><a href="#about"
+                                class="block py-2 px-3 text-blue-500 hover:text-white hover:scale-110 transition-transform duration-300 ease-in-out rounded">About</a>
+                        </li>
+                        <li><a href="#services"
+                                class="block py-2 px-3 text-blue-500 hover:text-white hover:scale-110 transition-transform duration-300 ease-in-out rounded">Services</a>
+                        </li>
+                        <li><a href="#projects"
+                                class="block py-2 px-3 text-blue-500 hover:text-white hover:scale-110 transition-transform duration-300 ease-in-out rounded">Projects</a>
+                        </li>
+                        <li><a href="#contact"
+                                class="block py-2 px-3 text-blue-500 hover:text-white hover:scale-110 transition-transform duration-300 ease-in-out rounded">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section id="home" class="min-h-screen flex items-center justify-center bg-black pt-24">
+            <h1 class="text-5xl font-bold">Welcome to My Portfolio</h1>
+        </section>
+
+        <section id="about" class="min-h-screen flex items-center justify-center bg-black text-white">
+            <div class="text-center">
+                <h2 class="text-4xl font-bold mb-4">About Me</h2>
+                <p class="text-lg">Hi, I'm Havindu, a passionate web developer.</p>
+            </div>
+        </section>
+
+        <section id="services" class="min-h-screen flex items-center justify-center bg-black text-white">
+            <div class="text-center">
+                <h2 class="text-4xl font-bold mb-4">Services</h2>
+                <p class="text-lg">Web Design, Frontend Development, UI/UX</p>
+            </div>
+        </section>
+
+        <section id="projects" class="min-h-screen flex items-center justify-center bg-black text-white">
+            <div class="text-center">
+                <h2 class="text-4xl font-bold mb-4">Projects</h2>
+                <p class="text-lg">Check out my work below.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="min-h-screen flex items-center justify-center bg-black text-white">
+            <div class="text-center">
+                <h2 class="text-4xl font-bold mb-4">Contact</h2>
+                <p class="text-lg">Email: your@email.com</p>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
 </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+</body>
+
 </html>
